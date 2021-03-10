@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/karb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Карбоновые кислоты"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/karb_sved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Карбо́новые кисло́ты — класс органических соединений, молекулы которых содержат одну или несколько функциональных карбоксильных групп COOH."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/karb"/>
+
+            <TextView
+                android:id="@+id/karb_form_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Общая формула"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/karb_sved"/>
+
+            <TextView
+                android:id="@+id/karb_form1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R—COOH"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:layout_below="@id/karb_form_info"/>
+
+            <TextView
+                android:id="@+id/karb_phys_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Физические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/karb_form1"/>
+
+            <TextView
+                android:id="@+id/karb_phys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Первые три члена гомологического ряда карбоновых кислот, включая пропионовую кислоту, — жидкости, имеющие резкий запах, хорошо растворимые в воде. Следующие гомологи, начиная с масляной кислоты, — также жидкости, обладающие резким неприятным запахом, но плохо растворимые в воде. Высшие кислоты, с числом атомов углерода 10 и более, представляют собой твердые вещества, без запаха, нерастворимые в воде. В целом, в ряду гомологов с увеличением молекулярной массы уменьшается растворимость в воде, уменьшается плотность и возрастает температура кипения"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/karb_phys_info"/>
+
+            <TextView
+                android:id="@+id/karb_chem_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Химические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/karb_phys"/>
+
+            <TextView
+                android:id="@+id/karb_chem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/karb_chem_info"/>
+
+            <TextView
+                android:id="@+id/karb_pol_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Получение"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/karb_chem"/>
+
+            <TextView
+                android:id="@+id/karb_pol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Карбоновые кислоты получают окислением предельных углеводородов, спиртов, альдегидов. Например, уксусную кислоту – окислением этанола раствором перманганата калия в кислой среде при нагревании:"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/karb_pol_info" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/pic3742"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@+id/karb_pol"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

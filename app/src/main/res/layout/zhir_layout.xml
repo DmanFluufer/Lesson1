@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/zhir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Жиры"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/zhir_sved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Жиры - сложные эфиры, образованные высшими одноосновными карбоновыми кислотами, главным образом пальмитиновой, стеариновой (насыщенные кислоты) и олеиновой (ненасыщенная кислота) и трехатомным спиртом — глицерином. Общее название таких соединений — триглицериды"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/zhir"/>
+
+            <TextView
+                android:id="@+id/zhir_form_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Общая формула"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/zhir_sved"/>
+
+            <ImageView
+                android:id="@+id/zhir_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/zhir_form"
+                android:layout_below="@id/zhir_form_info"/>
+
+            <TextView
+                android:id="@+id/zhir_phys_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Физические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/zhir_form"/>
+
+            <TextView
+                android:id="@+id/zhir_phys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="При комнатной температуре жиры (смеси триглицеридов) – твердые, мазеобразные или жидкие вещества. Как любая смесь веществ, они не имеют четкой температуры плавления (т.е. плавятся в некотором диапазоне температур). Определенной температурой плавления характеризуются лишь индивидуальные триглицериды."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/zhir_phys_info"/>
+
+            <TextView
+                android:id="@+id/zhir_chem_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Химические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/zhir_phys"/>
+
+            <TextView
+                android:id="@+id/zhir_chem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Гидролиз жиров. Жиры гидролизуются с образованием глицерина и карбоновых кислот:"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/zhir_chem_info"/>
+
+            <ImageView
+                android:id="@+id/zhir_chem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zc1"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/zhir_chem1"/>
+
+            <TextView
+                android:id="@+id/zhir_chem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Гидрирование масел. Жидкие растительные масла превращаются в твёрдые"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/zhir_chem2"/>
+
+            <ImageView
+                android:id="@+id/zhir_chem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zc2"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/zhir_chem3"/>
+
+            <TextView
+                android:id="@+id/zhir_chem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Получение мыла. Мыла – соли щелочных металлов высших карбоновых кислот."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/zhir_chem4"/>
+
+            <ImageView
+                android:id="@+id/zhir_chem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zc3"
+                android:layout_margin="16dp"
+                android:layout_below="@id/zhir_chem5"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

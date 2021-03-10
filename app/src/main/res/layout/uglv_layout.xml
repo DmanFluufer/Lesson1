@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/uglv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Углеводы"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="45dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/uglv_sved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Углеводы - кислородсодержащие органические вещества, в которых водород и кислород находятся, как правило, в соотношении 2:1 (как и в молекуле воды).
+
+В линейных формах молекул углеводов всегда присутствует карбонильная группа (как таковая, или в составе альдегидной группы). И в линейной, и в циклической формах молекул углеводов присутствуют несколько гидроксильных групп. Поэтому углеводы относят к двуфункциональным соединениям.
+
+Углеводы по их способности гидролизоваться делятся на три основных группы: моносахариды, дисахариды и полисахариды. Моносахариды (например, глюкоза) не гидролизуется, молекулы дисахаридов (например, сахарозы) гидролизуются с образованием двух молекул моносахаридов, а молекулы полисахаридов (наример, крахмала) гидролизуются с образованием множества молекул моносахаридов."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/uglv"/>
+
+            <TextView
+                android:id="@+id/uglv_sved1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/uglv_sved"/>
+
+
+            <TextView
+                android:id="@+id/uglv_form_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Общая формула"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/uglv_sved1"/>
+
+            <TextView
+                android:id="@+id/uglv_form1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cn(H2O)m, (где n и m>3)"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:layout_below="@id/uglv_form_info"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

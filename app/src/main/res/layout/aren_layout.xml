@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/aren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Арены"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/aren_sved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="циклические органические соединения, которые имеют в своём составе ароматическую систему. Основными отличительными свойствами являются повышенная устойчивость ароматической системы и, несмотря на ненасыщенность, склонность к реакциям замещения, а не присоединения."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/aren"/>
+
+            <TextView
+                android:id="@+id/aren_form_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Общая формула"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/aren_sved"/>
+
+            <TextView
+                android:id="@+id/aren_form1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CnH2n-6"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:layout_below="@id/aren_form_info"/>
+
+            <TextView
+                android:id="@+id/aren_phys_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Физические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/aren_form1"/>
+
+            <TextView
+                android:id="@+id/aren_phys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Первые члены ряда – жидкости без цвета с характерным запахом. Они хорошо растворяются в органических растворителях, но нерастворимы в воде. Бензол токсичен, но имеет приятный запах. Вызывает головную боль и головокружения, при вдыхании больших количеств паров можно потерять сознание. Раздражает слизистую оболочку и глаза."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/aren_phys_info"/>
+
+            <TextView
+                android:id="@+id/aren_chem_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Химические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/aren_phys"/>
+
+            <TextView
+                android:id="@+id/aren_chem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/aren_chem_info"/>
+
+            <TextView
+                android:id="@+id/aren_pol_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Получение"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/aren_chem"/>
+
+            <TextView
+                android:id="@+id/aren_pol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/aren_pol_info" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

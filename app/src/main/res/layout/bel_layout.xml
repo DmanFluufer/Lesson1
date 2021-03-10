@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/bel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Белки"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/alcohol1_sved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Белки – сложные высокомолекулярные природные соединения, состоящие из a-аминокислот, соединенных пептидной связью. Число аминокислот, входящих в молекулы отдельных белков, различно, поэтому содержание элементов в них колеблется в достаточно широких пределах."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/bel"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

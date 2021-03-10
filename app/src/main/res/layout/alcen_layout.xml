@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/alcen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Алкены"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/alcen_sved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Алкены - это углеводороды нециклического строения, в молекулах которых два атома углерода находятся в состоянии sp3-гибридизациии связаны друг с другомдвойной связью."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/alcen"/>
+
+            <TextView
+                android:id="@+id/alcen_form_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Общая формула"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/alcen_sved"/>
+
+            <TextView
+                android:id="@+id/alcen_form1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CnH2n"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:layout_below="@id/alcen_form_info"/>
+
+            <TextView
+                android:id="@+id/alcen_phys_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Физические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/alcen_form1"/>
+
+            <TextView
+                android:id="@+id/alcen_phys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="При обычных условиях С2-С4 – газы, С5-С17 – жидкости, начиная с С18 – твердые вещества. Алкены не растворимы в воде, хорошо растворимы в органических растворителях."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/alcen_phys_info"/>
+
+            <TextView
+                android:id="@+id/alcen_chem_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Химические свойства"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/alcen_phys"/>
+
+            <TextView
+                android:id="@+id/alcen_chem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/alcen_chem_info"/>
+
+            <TextView
+                android:id="@+id/alcen_pol_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Получение"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/Black"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_below="@id/alcen_chem"/>
+
+            <TextView
+                android:id="@+id/alcen_pol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:layout_below="@id/alcen_pol_info" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
